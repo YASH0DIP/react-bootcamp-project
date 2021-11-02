@@ -1,0 +1,60 @@
+.connectat{
+  padding: 1em 0;
+  border: 3px solid black;
+  background:  rgb(230, 239, 250);
+  background-blend-mode: screen;
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 10px;
+  border-color: red orange green blue;
+}
+.connectat b{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.connectat a{
+  font-size: 2em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  color: black;
+}
+
+.connectat a :hover{
+  color: royalblue;
+}
+
+.footer_container{
+        background-color: black;
+        color: #fbe8d3;
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom:3px;
+        font-family: Courier Prime; 
+      }
+      
+.copyrights{
+        font-family: 'Averia Serif Libre';
+        line-height: 20px;
+      }
+      
+.watermark{
+        font-family: 'Averia Serif Libre';
+        font-size: 12px;
+        opacity: 0.19;
+      }
+
+.watermark:hover{
+    opacity: 0.6;
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+  .connectat a{
+    font-size: 1.35em;
+  }
+  .connectat h1{
+    font-size: 20px;
+  }
+}

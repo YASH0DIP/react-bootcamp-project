@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background:
+    linear-gradient(to bottom right,lightgreen,cornflowerblue),
+    linear-gradient(to top left,cornflowerblue,yellow);
+  background-blend-mode:screen;
+}

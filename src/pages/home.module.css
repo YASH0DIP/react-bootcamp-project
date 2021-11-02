@@ -1,0 +1,111 @@
+.home_body{
+    margin: 4% 0 0 0;
+    font-weight: 999;
+}
+
+.main_title {
+    color: #093145;
+    font-size: 2em;
+  }
+  
+  .intro_icons {
+    color: royalblue;
+    font-size: 2.3em;
+    inline-size: 1em;
+    line-height: 2em;
+    background-color: black;
+    padding: 0.2em;
+  }
+
+  .intro_para {
+    text-align: center;
+    color: green;
+    font-size: 1.2em;
+    font-family: Courier;
+    margin-top: -36.5%;
+ }
+  
+  .syllabus_link {
+    font-size:1.5em;
+    font-family: New Tegomin;
+    color: #F26D21;
+    background-color: black;
+    padding: 8px;
+    border: 2px black solid;
+    border-radius: 10%;
+  }
+  
+  .syllabus_link:hover{
+    color: royalblue;
+  }
+  
+  .download_icon {
+    font-size: 1em;
+    color:#F26D21;
+  }
+
+  .bca_sem_one h1{
+    padding-top: 2%;
+    color: #093145;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+
+  }
+
+  .subjects{
+      font-size: 25px;
+      line-height: 1.9em;
+      color: darkgreen;
+      font-family: sans-serif;
+  }
+  .subjects:hover{
+    color:royalblue;
+  }
+
+
+
+  @media only screen and (max-width: 800px) {
+      .intro_para{
+          margin-top: -60%;
+          font-size: 1em;
+      }
+      .home_body{
+          margin-top: 6%;
+      }
+      .subjects{
+          font-size: 1.4em;
+      }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .main_title{     
+        font-size: 1.5em;
+        padding-bottom: 5%;
+    }
+    .bca_sem_one h1{
+        font-size: 25px;
+    }
+    .syllabus_link{
+      font-size: 1.2em;
+    }
+    .intro_para{
+        font-size: 1em;
+        margin-top: auto;
+    }
+    .intro_icons{
+        font-size: 1.8em;
+        color: rgb(99, 114, 156);
+        text-align: center;
+        display: inline;
+        background-color: inherit;
+        margin-top: auto;
+    }
+    .home_body{
+      padding-top: 5%; 
+    }
+    .subjects{
+        font-size: 1.1em;
+    }
+}
